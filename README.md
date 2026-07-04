@@ -3,6 +3,7 @@
 ![](https://img.shields.io/badge/Mac%20OSX%20&%20Windows-Available-brightgreen.svg)
 ![](https://img.shields.io/badge/Release%20version-V1-brightgreen.svg)
 
+![LLM workflow](assets/front.png)
 
 ## Course Overview
 
