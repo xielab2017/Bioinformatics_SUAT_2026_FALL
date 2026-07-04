@@ -1,4 +1,8 @@
 # Bioinformatics: From Multi-Omics Data to Discovery
+![](https://img.shields.io/badge/R%20language->=4.3.3-brightgreen.svg)
+![](https://img.shields.io/badge/Mac%20OSX%20&%20Windows-Available-brightgreen.svg)
+![](https://img.shields.io/badge/Release%20version-0.2.8-brightgreen.svg)
+
 
 ## Course Overview
 
