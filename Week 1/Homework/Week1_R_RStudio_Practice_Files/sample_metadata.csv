@@ -1,0 +1,13 @@
+sample_id,group,sex,batch,body_weight_g
+S1,Control,F,B1,22.1
+S2,Control,M,B1,24.5
+S3,Control,F,B2,21.8
+S4,Control,M,B2,25.2
+S5,Control,F,B3,22.7
+S6,Control,M,B3,24.9
+S7,Treatment,F,B1,21.2
+S8,Treatment,M,B1,23.8
+S9,Treatment,F,B2,20.9
+S10,Treatment,M,B2,23.1
+S11,Treatment,F,B3,21.5
+S12,Treatment,M,B3,23.5

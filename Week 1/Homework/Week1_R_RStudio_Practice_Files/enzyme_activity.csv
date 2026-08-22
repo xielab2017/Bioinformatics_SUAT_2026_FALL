@@ -1,0 +1,13 @@
+sample_id,group,citrate_synthase_activity,lactate_mmol_L
+S1,Control,31.2,2.2
+S2,Control,29.8,2.4
+S3,Control,32.1,2.1
+S4,Control,30.5,2.6
+S5,Control,31.7,2.3
+S6,Control,30.8,2.5
+S7,Treatment,36.5,1.7
+S8,Treatment,35.9,1.8
+S9,Treatment,37.2,1.6
+S10,Treatment,34.8,1.9
+S11,Treatment,36.9,1.7
+S12,Treatment,35.5,1.8
