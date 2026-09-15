@@ -1,0 +1,14 @@
+# Synthetic teaching variants for Q4. No real patient data. Positions are illustrative.
+CHROM	POS	REF	ALT	FILTER	DP	GQ	AF	GENE	CONSEQUENCE	CLINVAR_SIG	CLINVAR_ID	NOTE
+chr17	7673803	G	A	PASS	80	99	0.00001	TP53	splice_acceptor_variant	Pathogenic	VCV000012345	Annotated near a canonical splice junction
+chr13	32316461	C	T	PASS	60	90	0.0001	BRCA2	missense_variant	Uncertain_significance	VCV000067890	Rare missense with uncertain clinical significance
+chr1	169519049	G	A	PASS	55	95	0.42	F5	missense_variant	Benign	VCV000000111	Common population allele; ClinVar Benign
+chr7	117199644	C	T	PASS	70	99	0.00005	CFTR	synonymous_variant	Benign	VCV000000222	Synonymous substitution; ClinVar Benign
+chr2	47641560	A	G	LowQual	8	12	0.00002	MSH2	stop_gained	Pathogenic	VCV000000333	Site marked LowQual; DP=8, GQ=12
+chr6	29942857	T	C	FAIL	45	40	0.00003	HLA-A	missense_variant	Uncertain_significance	VCV000000444	FILTER=FAIL; MHC-region mapping caution
+chr8	128750000	A	G	PASS	50	85	0.00008	.	intergenic_variant	.	.	Intergenic; no gene symbol assigned
+chr11	108323000	G	C	PASS	65	92	0.18	ATM	missense_variant	Benign	VCV000000555	AF=0.18; ClinVar Benign
+chr19	11200200	C	T	PASS	40	88	0.0002	LDLR	missense_variant	Likely_benign	VCV000000666	ClinVar Likely_benign
+chrX	153870000	G	A	PASS	5	20	0.00001	MECP2	frameshift_variant	Pathogenic	VCV000000777	ChrX site with DP=5, GQ=20
+chr4	88000000	G	T	PASS	75	98	0.35	.	intron_variant	.	.	Intronic; AF=0.35; no ClinVar entry
+chr12	25398284	C	A	PASS	58	91	0.00015	KRAS	missense_variant	Conflicting_interpretations_of_pathogenicity	VCV000000888	ClinVar conflicting interpretations

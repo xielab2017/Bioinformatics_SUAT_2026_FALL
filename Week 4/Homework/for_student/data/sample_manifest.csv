@@ -1,0 +1,9 @@
+sample_id,condition,assay,R1,R2,notes
+S01_CTRL_WGS,control,WGS,demo_fastq/S01_CTRL_WGS_R1.fastq.gz,demo_fastq/S01_CTRL_WGS_R2.fastq.gz,Tiny synthetic PE demo (120×80bp); not a real WGS library
+S02_CASE_WGS,case,WGS,S02_CASE_WGS_R1.fastq.gz,S02_CASE_WGS_R2.fastq.gz,Same library prep as S01; batch A
+S03_CTRL_RNA,control,RNA-seq,S03_CTRL_RNA_R1.fastq.gz,S03_CTRL_RNA_R2.fastq.gz,Poly(A) selection; 2x150bp nominal
+S04_CASE_RNA,case,RNA-seq,S04_CASE_RNA_R1.fastq.gz,S04_CASE_RNA_R2.fastq.gz,Matched donor metadata omitted (synthetic)
+S05_CTRL_ATAC,control,ATAC-seq,S05_CTRL_ATAC_R1.fastq.gz,S05_CTRL_ATAC_R2.fastq.gz,Tn5 tagmentation; PE reads
+S06_CASE_ATAC,case,ATAC-seq,S06_CASE_ATAC_R1.fastq.gz,S06_CASE_ATAC_R2.fastq.gz,Same protocol as S05
+S07_CTRL_CHIP,control,ChIP-seq_H3K27ac,S07_CTRL_CHIP_R1.fastq.gz,S07_CTRL_CHIP_R2.fastq.gz,Input control available separately (not listed)
+S08_CASE_CHIP,case,ChIP-seq_H3K27ac,S08_CASE_CHIP_R1.fastq.gz,S08_CASE_CHIP_R2.fastq.gz,Antibody lot recorded in fictional LIMS only

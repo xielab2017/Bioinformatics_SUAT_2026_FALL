@@ -1,0 +1,9 @@
+# Precomputed FastQC-style summary for the tiny S01 demo (synthetic). Optional: run FastQC yourself and compare.
+module	status	value	note
+Per base sequence quality	WARN	3′ median Phred ~12 after cycle 50 on ~15% of R1	Quality crash is planted, not a real instrument failure
+Per sequence GC content	WARN	Main mode ~41% GC plus a high-GC shoulder (~78%)	~10% of reads are a high-GC contaminant spike
+Adapter content	FAIL	Illumina-like AGATCGGAAGAGC rises at 3′ in ~15% of pairs	Trim adapters; re-QC
+Sequence duplication levels	WARN	One template sequence repeated in ~15% of R1	PCR/duplicate trap; mark duplicates in WGS
+Overrepresented sequences	FAIL	AGATCGGAAGAGC fragment among top overrepresented kmers	Matches adapter content
+Per base N content	PASS	N bases ~0%	No N-crash planted
+Sequence length distribution	PASS	All reads 80 bp	Uniform synthetic length
