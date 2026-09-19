@@ -6,6 +6,10 @@
 # Required packages:
 # BiocManager::install(c("DESeq2", "apeglm"))
 # install.packages(c("tidyverse", "pheatmap", "ggrepel"))
+library(rstudioapi) 
+# Set working directory
+setwd(dirname(getActiveDocumentContext()$path))
+#################Load Necessary tools##########################
 
 suppressPackageStartupMessages({
   library(DESeq2)
