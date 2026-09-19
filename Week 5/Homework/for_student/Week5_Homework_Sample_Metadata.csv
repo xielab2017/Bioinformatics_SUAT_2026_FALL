@@ -1,0 +1,13 @@
+sample_id,condition,batch
+CA1,control,A
+CA2,control,A
+TA1,treated,A
+TA2,treated,A
+CB1,control,B
+CB2,control,B
+TB1,treated,B
+TB2,treated,B
+CC1,control,C
+CC2,control,C
+TC1,treated,C
+TC2,treated,C
